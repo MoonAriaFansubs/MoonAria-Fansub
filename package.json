@@ -1,1 +1,6 @@
-
+{
+  "name": "moonaria-fansub",
+  "version": "1.0.0",
+  "description": "Moonaria Fansub manga reader",
+  "main": "worker.js"
+}
