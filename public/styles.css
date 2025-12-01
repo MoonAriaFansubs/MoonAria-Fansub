@@ -1,1 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0d0d0f;
+    color: white;
+}
 
+header {
+    padding: 20px;
+    text-align: center;
+    background: #1a1a1d;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+nav {
+    background: #2b2b30;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ff9edc;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1c1c20;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
